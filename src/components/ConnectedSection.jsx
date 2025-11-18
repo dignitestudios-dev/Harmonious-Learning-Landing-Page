@@ -4,6 +4,7 @@ import React from "react";
 export default function ConnectedSection() {
   return (
     <section
+    id="contact-us"
       className="w-full min-h-screen text-white px-10 py-20"
       style={{
         background: "linear-gradient(99.66deg, #000086 0.87%, #CEA3D8 100%)",

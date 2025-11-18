@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WhyUsSection() {
   return (
-    <section className="py-20 px-4 relative sm:px-6 lg:px-8">
+    <section id="why-us" className="py-20 px-4 relative sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* MOBILE FIRST — IMAGE FIRST */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

@@ -39,3 +39,22 @@
   filter: blur(120px);
   opacity: 0.25;
 }
+.slider-track {
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.outline-text {
+  color: white; /* Color of the inner text fill */
+  -webkit-text-stroke-width: 2px; /* Width of the outline */
+  -webkit-text-stroke-color: #1a0d30; /* Color of the outline */
+}
