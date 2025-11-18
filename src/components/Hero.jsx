@@ -1,0 +1,49 @@
+import React from "react";
+import { ChevronRight, Play } from "lucide-react";
+import Image from "next/image";
+export default function Hero() {
+  return (
+    <section className="pt-10 pb-12 px-4 sm:px-6 lg:px-8 flex items-center">
+      <div className="max-w-full mx-auto w-full">
+        {/* Grid responsive */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* IMAGE FIRST ON MOBILE */}
+          <div className="flex justify-end order-1 lg:order-2">
+            <div className="relative">
+              <Image
+                src="/hero-right.png"
+                width={500}              
+                height={500}
+                className="w-full relative lg:-right-[32px] -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[550px] object-contain"
+                alt="Hero Image"
+              />
+            </div>
+          </div>
+
+          {/* TEXT CONTENT */}
+          <div className="order-2 lg:order-1">
+            <h1
+              className="
+          text-white font-bold leading-tight mb-6
+          text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[70px]
+        "
+            >
+              Building Brighter Minds, One Story at a Time
+            </h1>
+
+            <p
+              className="
+          text-gray-300 leading-relaxed mb-8
+          text-lg sm:text-xl md:text-2xl lg:text-[26px]
+        "
+            >
+              From math mysteries to science wonders, Harmonious Learning blends
+              storytelling and serenity to spark your child’s imagination, where
+              curiosity meets calm and dreams build the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.glow-button {
+  position: relative;
+  width: 155px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(135deg, #2d1b4e 0%, #1a0d30 100%);
+  border: 3px solid #d4a574;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 15px 20px #c9735929, 0 15px 40px rgba(212, 165, 116, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glow-button::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(135deg, #f0b87a, #d4a574, #e8c8a0);
+  border-radius: 50px;
+  z-index: -1;
+  filter: blur(5px);
+  opacity: 0.7;
+}
+.blur-bg {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #6366f1 0%, #a855f7 40%, transparent 70%);
+  filter: blur(120px);
+  opacity: 0.25;
+}
