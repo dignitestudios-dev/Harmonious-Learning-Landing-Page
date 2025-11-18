@@ -3,7 +3,7 @@ import { ChevronRight, Play } from "lucide-react";
 import Image from "next/image";
 export default function Hero() {
   return (
-    <section className="pt-10 pb-12 px-4 sm:px-6 lg:px-8 flex items-center">
+    <section className="lg:pt-20 pt-10 pb-12 px-4 sm:px-6 lg:px-8 flex items-center">
       <div className="max-w-full mx-auto w-full">
         {/* Grid responsive */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -14,7 +14,7 @@ export default function Hero() {
                 src="/hero-right.png"
                 width={500}              
                 height={500}
-                className="w-full relative lg:-right-[32px] -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[550px] object-contain"
+                className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[550px] object-contain"
                 alt="Hero Image"
               />
             </div>
