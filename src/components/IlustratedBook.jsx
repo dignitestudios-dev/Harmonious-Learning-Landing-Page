@@ -39,7 +39,7 @@ export default function IlustratedBook() {
           </div>
         </div>
         {/* Infinite Auto Loop Slider */}
-        <div className="w-full mt-10 z-0 absolute h-96 top-0  overflow-hidden">
+        <div className="w-full mt-10 z-0  h-96 top-0  overflow-hidden">
           <div className="slider-track flex">
             {["/book1.jpeg","/book2.jpeg","/book3.jpeg","/book4.jpeg","/book5.jpeg"].map((num, i) => (
               <div
