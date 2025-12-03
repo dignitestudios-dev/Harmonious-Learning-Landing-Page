@@ -74,11 +74,18 @@ export default function WhyUsSection() {
               </li>
             </ul>
 
-            <button className="glow-button mt-6">Try It Out</button>
+            {/* Button linking to App Store / Play Store */}
+            <a
+              href="https://play.google.com/store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="glow-button mt-6">Try It Out!</button>
+            </a>
           </div>
         </div>
       </div>
-        <div className="blur-bg absolute top-2/2 right-0   translate-x-0 -translate-y-1/2 pointer-events-none"></div>
+      <div className="blur-bg absolute top-2/2 right-0   translate-x-0 -translate-y-1/2 pointer-events-none"></div>
     </section>
   );
 }

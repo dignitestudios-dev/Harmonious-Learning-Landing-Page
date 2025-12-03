@@ -28,7 +28,7 @@ export default function SpecialSection() {
           text-2xl sm:text-3xl md:text-4xl lg:text-[40px]
         "
           >
-            What Makes Harmonious Learning Special
+            What Makes Harmonious Learning Special?
           </h2>
 
           <p
@@ -47,7 +47,7 @@ export default function SpecialSection() {
         {/* Center Image - Hide on Mobile */}
         <div className="relative flex justify-center">
           <Image
-            src="/special.png"
+            src="/special-img.png"
             className="absolute top-2 left-40 hidden lg:block"
             width={750}
             height={0}
@@ -99,7 +99,7 @@ export default function SpecialSection() {
             </div>
 
             {/* Card 003 */}
-            <div className="lg:w-[386px] w-full lg:mt-60 mt-10">
+            <div className="lg:w-[386px] w-full lg:mt-72 mt-10">
               <div
                 className="
               inline-flex items-center justify-center 
@@ -169,7 +169,7 @@ export default function SpecialSection() {
             </div>
 
             {/* Card 004 */}
-            <div className="lg:w-[386px] w-full lg:ml-auto lg:mt-96 mt-10">
+            <div className="lg:w-[386px] w-full lg:ml-auto lg:mt-[400px] mt-10">
               <div
                 className="
               inline-flex items-center justify-center 
@@ -188,7 +188,7 @@ export default function SpecialSection() {
               text-[#FFFFFF] font-bold mb-4 sm:mb-6
             "
               >
-                Bedtime Stories
+                Meditation Tracks
               </h2>
 
               <p
@@ -197,7 +197,10 @@ export default function SpecialSection() {
               font-normal leading-relaxed text-gray-300
             "
               >
-                Each audiobook turns academic ideas into magical bedtime tales.
+                Mindful learning through calm reflection. These soothing
+                sessions teach kids focus, patience, and emotional awareness
+                while helping them relax, recharge, and strengthen their
+                readiness to learn.
               </p>
             </div>
           </div>

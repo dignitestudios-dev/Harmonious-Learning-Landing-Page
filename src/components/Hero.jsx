@@ -12,9 +12,9 @@ export default function Hero() {
             <div className="relative">
               <Image
                 src="/hero-right.png"
-                width={500}              
+                width={600}              
                 height={500}
-                className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[550px] object-contain"
+                className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
                 alt="Hero Image"
               />
             </div>
