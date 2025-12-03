@@ -1,6 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="border-t border-gray-800 py-8 px-6">
@@ -10,7 +11,7 @@ export default function Footer() {
           <div className="flex items-center gap-10">
             {/* Logo */}
             <div className="w-16 h-16 rounded-lg flex items-center justify-center">
-             <Image src={"/logo.png"} alt="logo" width={92} height={70} />
+              <Image src={"/logo.png"} alt="logo" width={92} height={70} />
             </div>
 
             {/* Social Icons */}
@@ -43,31 +44,31 @@ export default function Footer() {
         {/* Navigation Links */}
         <nav className="flex flex-wrap items-center justify-center gap-8 text-sm">
           <a
-            href="#"
+            href="#why-us"
             className="text-gray-400 hover:text-white transition-colors"
           >
             Why Us
           </a>
           <a
-            href="#"
+            href="#feature"
             className="text-gray-400 hover:text-white transition-colors"
           >
             Features
           </a>
           <a
-            href="#"
+            href="#about-us"
             className="text-gray-400 hover:text-white transition-colors"
           >
             About Us
           </a>
           <a
-            href="#"
+            href="#contact-us"
             className="text-gray-400 hover:text-white transition-colors"
           >
             Contact Us
           </a>
           <a
-            href="#"
+            href="#book-store"
             className="text-gray-400 hover:text-white transition-colors"
           >
             Book Store
