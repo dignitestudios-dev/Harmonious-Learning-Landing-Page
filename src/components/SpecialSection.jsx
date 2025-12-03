@@ -81,7 +81,7 @@ export default function SpecialSection() {
               <h2
                 className="
               text-lg sm:text-xl md:text-2xl 
-              text-[#FFFFFF] font-bold mb-4 sm:mb-6
+              text-[#FFFFFF] font-bold mb-2 sm:mb-2
             "
               >
                 UPCOMING SECTION
@@ -115,7 +115,7 @@ export default function SpecialSection() {
               <h2
                 className="
               text-lg sm:text-xl md:text-2xl 
-              text-[#FFFFFF] font-bold mb-4 sm:mb-6
+              text-[#FFFFFF] font-bold mb-2 sm:mb-2
             "
               >
                 Bedtime Stories
@@ -152,7 +152,7 @@ export default function SpecialSection() {
               <h2
                 className="
               text-lg sm:text-xl md:text-2xl 
-              text-[#FFFFFF] font-bold mb-4 sm:mb-6
+              text-[#FFFFFF] font-bold mb-2 sm:mb-2
             "
               >
                 Recommended For You
@@ -185,7 +185,7 @@ export default function SpecialSection() {
               <h2
                 className="
               text-lg sm:text-xl md:text-2xl 
-              text-[#FFFFFF] font-bold mb-4 sm:mb-6
+              text-[#FFFFFF] font-bold mb-2 sm:mb-2
             "
               >
                 Meditation Tracks
