@@ -3,8 +3,11 @@ import { BookOpen, Heart, Users } from "lucide-react";
 import Image from "next/image";
 export default function FutureCard() {
   return (
-    <section id="feature" className=" py-12 px-4  sm:px-6 w-full relative lg:px-8">
-        <div className="blur-bg absolute top-1/2  -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+    <section
+      id="feature"
+      className=" py-12 px-4  sm:px-6 w-full relative lg:px-8"
+    >
+      <div className="blur-bg absolute top-1/2  -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
       <div className=" max-w-7xl   mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className=" text-center">
@@ -51,7 +54,7 @@ export default function FutureCard() {
           </div>
         </div>
       </div>
-        <div className="blur-bg absolute top-2/2 right-0   translate-x-0 -translate-y-1/2 pointer-events-none"></div>
+      <div className="blur-bg absolute top-2/2 right-0   translate-x-0 -translate-y-1/2 pointer-events-none"></div>
     </section>
   );
 }
