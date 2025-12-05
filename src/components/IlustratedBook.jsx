@@ -1,10 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import AudioPlayer from "./global/AudioPlayer";
 
 export default function IlustratedBook() {
   return (
     <div className="relative">
-      <div className="blur-bg absolute top-1/5  -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+      
+      <div className="blur-bg absolute top-1/5  -translate-x-1/2 -translate-y-1/8 pointer-events-none"></div>
       <section
         id="book-store"
         className="flex-1 flex items-center justify-center px-6 py-20"
@@ -48,14 +50,18 @@ export default function IlustratedBook() {
             </div>
           </div>
           {/* Infinite Auto Loop Slider */}
+          <AudioPlayer/>
           <div className="w-full mt-10 z-0  h-96 top-0  overflow-hidden">
             <div className="slider-track flex">
               {[
-                "/book1.jpeg",
-                "/book2.jpeg",
-                "/book3.jpeg",
-                "/book4.jpeg",
-                "/book5.jpeg",
+                "/book1.jpg",
+                "/book2.jpg",
+                "/book3.png",
+                "/book4.jpg",
+                "/book5.png",
+                "/book6.png",
+                "/book7.jpg",
+                "/book8.jpg",
               ].map((num, i) => (
                 <div
                   key={i}
@@ -81,7 +87,8 @@ export default function IlustratedBook() {
         </div>
       </section>
 
-      <div className="blur-bg absolute top-1/2 right-0   translate-x-0 translate-y-2 pointer-events-none"></div>
+      <div className="blur-bg absolute top-1/2 right-0   translate-x-0 -translate-y-1/2 pointer-events-none"></div>
+      <div className="blur-bg absolute top-1/2 right-0   translate-x-0 translate-y-4 pointer-events-none"></div>
     </div>
   );
 }

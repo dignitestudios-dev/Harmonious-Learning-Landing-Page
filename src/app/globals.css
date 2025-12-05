@@ -1,5 +1,49 @@
 @import "tailwindcss";
 
+.bg-gradient {
+  background: linear-gradient(135deg, #2d1b4e 0%, #1a0d30 100%);
+}
+
+/* Track reset (Chrome, Edge, Safari) */
+.custom-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  background: transparent;
+  border-radius: 4px;
+}
+
+/* Thumb style (Chrome, Safari, Edge) */
+.custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  background: #ff5722; /* 🔥 Your custom color */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+/* Hover effect */
+.custom-slider::-webkit-slider-thumb:hover {
+  background: #e64a19;
+}
+
+/* Firefox track */
+.custom-slider::-moz-range-track {
+  height: 4px;
+  background: transparent;
+  border-radius: 4px;
+}
+
+/* Firefox thumb */
+.custom-slider::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  background: #ff5722; /* 🔥 Same custom color */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .glow-button {
   position: relative;
   width: 155px;
