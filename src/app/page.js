@@ -21,8 +21,9 @@ export default function Home() {
           <WhyUsSection />
           <StoriesSection />
           <SpecialSection />
-          <AboutUsSection />
           <IlustratedBook />
+          <AboutUsSection />
+
           <ConnectedSection />
           <Footer />
         </div>

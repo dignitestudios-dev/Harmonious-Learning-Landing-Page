@@ -52,11 +52,11 @@ export default function StoriesSection() {
           {/* RIGHT IMAGE SECTION */}
           <div className="flex justify-center md:justify-end">
             <Image
-              src="/actres.png"
+              src="/actres-2.png"
               width={400}
               height={400}
               alt="actress"
-              className="w-[260px] sm:w-[320px] md:w-[380px] lg:w-[420px] h-auto"
+              className="h-[400px] w-auto object-contain rounded-md shadow-lg"
             />
           </div>
         </div>

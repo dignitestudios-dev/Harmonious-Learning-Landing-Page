@@ -1,6 +1,7 @@
 import React from "react";
 import { ChevronRight, Play } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="lg:pt-20 pt-10 pb-12 px-4 sm:px-6 lg:px-8 flex items-center">
@@ -12,7 +13,7 @@ export default function Hero() {
             <div className="relative">
               <Image
                 src="/hero-right.png"
-                width={600}              
+                width={600}
                 height={500}
                 className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
                 alt="Hero Image"
@@ -41,6 +42,24 @@ export default function Hero() {
               storytelling and serenity to spark your child’s imagination, where
               curiosity meets calm and dreams build the future.
             </p>
+            <div className="flex items-center gap-3">
+              <Link
+                target="_blank"
+                href={
+                  "https://play.google.com/store/apps/details?id=com.dignitestudios.harmoniousLearning"
+                }
+              >
+                <Image src={"/app-store.png"} width={200} height={200} />
+              </Link>
+              <Link
+                href={
+                  "https://apps.apple.com/us/app/harmonious-learning/id6744360499"
+                }
+                target="_blank"
+              >
+                <Image src={"/play-store.png"} width={200} height={200} />
+              </Link>
+            </div>
           </div>
         </div>
       </div>

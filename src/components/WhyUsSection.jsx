@@ -10,11 +10,11 @@ export default function WhyUsSection() {
           {/* IMAGE — order first on mobile */}
           <div className="lg:col-span-4 flex justify-center order-1 lg:order-none">
             <Image
-              src="/why-us-img.png"
-              width={400}
-              height={400}
+              src="/family-study-pic.webp"
+              width={800}
+              height={800}
               alt="Why Us"
-              className="w-full max-w-[300px] sm:max-w-[350px] lg:max-w-[400px]"
+              className="h-[360px] object-cover rounded-md shadow-lg"
             />
           </div>
 
