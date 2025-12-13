@@ -56,7 +56,7 @@ export default function StoriesSection() {
               width={400}
               height={400}
               alt="actress"
-              className="h-[400px] w-auto object-contain rounded-md shadow-lg"
+              className="h-[400px] w-auto object-cover  shadow-lg"
             />
           </div>
         </div>

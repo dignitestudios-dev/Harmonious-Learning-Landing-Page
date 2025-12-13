@@ -14,7 +14,7 @@ export default function WhyUsSection() {
          width={400}
               height={400}
               alt="Why Us"
-              className="h-[400px] w-full object-cover rounded-md shadow-lg"
+              className="h-[400px] w-full object-cover shadow-lg"
             />
           </div>
 
