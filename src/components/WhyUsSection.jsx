@@ -11,10 +11,10 @@ export default function WhyUsSection() {
           <div className="lg:col-span-4 flex justify-center order-1 lg:order-none">
             <Image
               src="/family-study-pic.webp"
-              width={800}
-              height={800}
+         width={400}
+              height={400}
               alt="Why Us"
-              className="h-[360px] object-cover rounded-md shadow-lg"
+              className="h-[400px] w-full object-cover rounded-md shadow-lg"
             />
           </div>
 
