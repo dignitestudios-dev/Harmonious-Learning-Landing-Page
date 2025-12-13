@@ -46,14 +46,14 @@ export default function Hero() {
               <Link
                 target="_blank"
                 href={
-                  "https://play.google.com/store/apps/details?id=com.dignitestudios.harmoniousLearning"
+                  "https://apps.apple.com/us/app/harmonious-learning/id6744360499"
                 }
               >
                 <Image src={"/app-store.png"} width={200} height={200} />
               </Link>
               <Link
                 href={
-                  "https://apps.apple.com/us/app/harmonious-learning/id6744360499"
+                  "https://play.google.com/store/apps/details?id=com.dignitestudios.harmoniousLearning"
                 }
                 target="_blank"
               >
