@@ -3,13 +3,13 @@ import React from "react";
 
 export default function StoriesSection() {
   return (
-    <section className="py-20 px-4 sm:px-6 relative lg:px-8">
+    <section className="py-10 md:py-20 px-4 sm:px-6 relative lg:px-8">
       <div className="blur-bg absolute top-1/2  -translate-x-1/3 translate-y-20 pointer-events-none"></div>      
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* LEFT TEXT SECTION */}
           <div>
-            <h2 className="text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-white mb-6">
+            <h2 className="text-[24px] sm:text-[36px] lg:text-[40px] font-bold text-white mb-6">
               Comparing Our Stories With Other’s
             </h2>
 
@@ -56,7 +56,7 @@ export default function StoriesSection() {
               width={400}
               height={400}
               alt="actress"
-              className="h-[400px] w-[470px] object-cover  shadow-lg"
+              className=" md:h-[400px] md:w-[470px] object-cover  shadow-lg"
             />
           </div>
         </div>

@@ -5,8 +5,8 @@ export default function AboutUsSection() {
     <section id="about-us" className="py-0 px-4 mb-20 relative sm:px-6 lg:px-8">
 <div className="blur-bg absolute top-1/2  -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-[70px]  font-bold text-white mb-4">About Us</h2>
-        <h3 className="text-[30px] font-bold text-white mb-4">
+        <h2 className="text-4xl md:text-[70px]  font-bold text-white mb-4">About Us</h2>
+        <h3 className="text-lg md:text-[30px] font-medium md:font-bold text-white mb-4">
           At Harmonious Learning, we believe that stories are powerful teachers.
         </h3>
         <div className="space-y-8 text-gray-300">

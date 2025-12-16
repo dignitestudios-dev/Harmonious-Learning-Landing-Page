@@ -3,28 +3,29 @@ import { Heart } from "lucide-react";
 import Image from "next/image";
 export default function SpecialSection() {
   return (
-    <section className="py-0 px-4 relative sm:px-6 lg:px-8">
+    <section className="py-0 px-2 relative sm:px-6 lg:px-8">
       <div
         className="
       max-w-7xl 
       relative 
       mx-auto 
-      bg-[url('/background.png')] 
+      md:bg-[url('/background.png')] 
       bg-contain 
       bg-center 
       bg-no-repeat 
-      py-20
+      py-5
+      md:py-20
       lg:h-[1550px] 
       h-auto
     "
       >
         {/* Heading */}
-        <div className="py-2 mt-30 lg:w-[655px] w-full px-4 sm:px-10">
+        <div className="py-2 md:mt-30 lg:w-[655px] w-full px-4 sm:px-4">
           <h2
             className="
           font-bold 
           text-white 
-          mb-6 sm:mb-16 leading-tight
+          mb-6 sm:mb-8 leading-tight
           text-2xl sm:text-3xl md:text-4xl lg:text-[40px]
         "
           >
@@ -59,11 +60,11 @@ export default function SpecialSection() {
         <div
           className="
         flex lg:flex-row flex-col 
-        justify-between gap-10 lg:gap-3
+        justify-between gap-5 md:gap-10 lg:gap-3
       "
         >
           {/* Left Column */}
-          <div className="w-full px-4 sm:px-10 lg:px-20 flex flex-col gap-20">
+          <div className="w-full px-4 sm:px-2 lg:px-20 flex flex-col gap-20">
             {/* Card 002 */}
             <div className="lg:w-[386px] w-full">
               <div
@@ -134,7 +135,7 @@ export default function SpecialSection() {
           </div>
 
           {/* Right Column */}
-          <div className="w-full px-4 sm:px-10 lg:px-0">
+          <div className="w-full px-4 sm:px-2 lg:px-0">
             {/* Card 001 */}
             <div className="lg:w-[386px] w-full lg:ml-auto">
               <div

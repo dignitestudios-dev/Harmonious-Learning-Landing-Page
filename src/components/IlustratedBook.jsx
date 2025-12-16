@@ -9,11 +9,11 @@ export default function IlustratedBook() {
       <div className="blur-bg absolute top-1/5  -translate-x-1/2 -translate-y-1/8 pointer-events-none"></div>
       <section
         id="book-store"
-        className="flex-1 flex items-center justify-center px-6 py-20"
+        className="flex-1 flex items-center justify-center px-3 md:px-6 py-5 md:py-20"
       >
-        <div className="max-w-7xl rounded-[12px] relative p-10 w-full overflow-hidden  shadow-2xl relative mx-auto text-center space-y-8">
+        <div className="max-w-7xl relative p-0 md:p-10 w-full overflow-hidden  shadow-2xl mx-auto md:text-center space-y-8">
           {/* Main Heading */}
-          <div className="relative z-0">
+          <div className="relative z-0 p-2">
             <Image
               src={"/vector1.png"}
               width={560}
@@ -22,7 +22,7 @@ export default function IlustratedBook() {
               alt="vector1"
             />
 
-            <h1 className="text-5xl text-[#FFFFFF] md:text-6xl lg:text-7xl font-bold mb-6">
+            <h1 className=" text-2xl text-[#FFFFFF] md:text-5xl lg:text-7xl font-bold mb-6">
               That's Not All!
             </h1>
 

@@ -15,7 +15,7 @@ export default function Hero() {
                 src="/hero-right.png"
                 width={600}
                 height={500}
-                className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[19px] max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
+                className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[16px] max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
                 alt="Hero Image"
               />
             </div>
@@ -26,7 +26,7 @@ export default function Hero() {
             <h1
               className="
           text-white font-bold leading-tight mb-6
-          text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[70px]
+          text-xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[70px]
         "
             >
               Building Brighter Minds, One Story at a Time
@@ -35,7 +35,7 @@ export default function Hero() {
             <p
               className="
           text-gray-300 leading-relaxed mb-8
-          text-lg sm:text-xl md:text-2xl lg:text-[26px]
+          text-md sm:text-xl md:text-2xl lg:text-[26px]
         "
             >
               From math mysteries to science wonders, Harmonious Learning blends

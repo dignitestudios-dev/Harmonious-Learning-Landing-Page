@@ -10,7 +10,7 @@ import StoriesSection from "@/components/StoriesSection";
 import WhyUsSection from "@/components/WhyUsSection";
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-hidden">
       <div>
         <div className="bg-gradient-to-br from-[#03002A] via-[#271056] to-[#83227E]">
           <Navbar />

@@ -5,7 +5,7 @@ export default function ConnectedSection() {
   return (
     <section
     id="contact-us"
-      className="w-full min-h-screen text-white px-10 py-20"
+      className="w-full min-h-screen text-white px-4 md:px-10 py-10 md:py-20"
       style={{
         background: "linear-gradient(99.66deg, #000086 0.87%, #CEA3D8 100%)",
       }}
@@ -13,12 +13,12 @@ export default function ConnectedSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* LEFT SECTION */}
         <div>
-          <h1 className="text-5xl font-bold leading-tight mb-10">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-10">
             LET’S STAY <br /> CONNECTED!
           </h1>
 
           {/* Illustration Placeholder */}
-          <div className="md:w-[420px] h-[220px]  rounded-full relative">
+          <div className="md:w-[420px] h-[180px] sm:h-[200px] md:h-[220px]  rounded-full relative">
              <Image alt="contac-us.png" src={"/contac-us.png"} width={400} height={100} />
           </div>
         </div>
