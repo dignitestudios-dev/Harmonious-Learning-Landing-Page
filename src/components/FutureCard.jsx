@@ -19,7 +19,7 @@ export default function FutureCard() {
             </h3>
             <p className="text-gray-300 font-medium text-[15px]">
               Every book neatly organized by themes like science, art, nature &
-              more — making it easy to find the perfect read for curious little
+              more ; making it easy to find the perfect read for curious little
               minds.
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function FutureCard() {
               BUILD EARLY SKILLS
             </h3>
             <p className="text-gray-300">
-              Stories that spark creativity, confidence, and curiosity — one
+              Stories that spark creativity, confidence, and curiosity ; one
               page at a time.
             </p>
           </div>

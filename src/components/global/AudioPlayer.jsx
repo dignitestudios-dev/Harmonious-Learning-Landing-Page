@@ -178,31 +178,10 @@ export default function AudioPlayer() {
             {/* Controls */}
             <div className="flex items-center justify-between">
               {/* Left Controls */}
-              <div className="hidden md:flex  items-center gap-0 md:gap-2">
-                {/* <button
-                    onClick={() => setIsShuffle(!isShuffle)}
-                    className={`p-2 rounded-full transition ${
-                      isShuffle
-                        ? "text-orange-500 bg-orange-50"
-                        : "text-gray-500 hover:bg-gray-100"
-                    }`}
-                  >
-                    <Shuffle size={18} />
-                  </button>
-                  <button
-                    onClick={() => setIsRepeat(!isRepeat)}
-                    className={`p-2 rounded-full transition ${
-                      isRepeat
-                        ? "text-orange-500 bg-orange-50"
-                        : "text-gray-500 hover:bg-gray-100"
-                    }`}
-                  >
-                    <Repeat size={18} />
-                  </button> */}
-              </div>
+              
 
               {/* Center Controls */}
-              <div className="flex w-[120px] md:w-full items-center gap-0 md:gap-2">
+              <div className="flex  items-center gap-0 md:gap-2">
                 <button
                   onClick={() => skip(-10)}
                   className="p-2 text-gray-600 hover:text-gray-800 transition"
@@ -230,7 +209,7 @@ export default function AudioPlayer() {
               </div>
 
               {/* Right Controls - Volume */}
-              <div className="flex w-[350px] md:w-full items-center gap-0 md:gap-2">
+              <div className="flex  items-center gap-0 md:gap-2">
                 <button
                   onClick={toggleMute}
                   className="p-2 text-gray-500 hover:bg-gray-100 rounded-full transition"

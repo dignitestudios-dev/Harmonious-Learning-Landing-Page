@@ -3,15 +3,18 @@ import Image from "next/image";
 
 export default function WhyUsSection() {
   return (
-    <section id="why-us" className="py-10 md:py-20 px-4 relative sm:px-6 lg:px-8">
+    <section
+      id="why-us"
+      className="py-10 md:py-20 px-4 relative sm:px-6 lg:px-8"
+    >
       <div className="max-w-7xl mx-auto">
-        {/* MOBILE FIRST — IMAGE FIRST */}
+        {/* MOBILE FIRST ; IMAGE FIRST */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* IMAGE — order first on mobile */}
+          {/* IMAGE ; order first on mobile */}
           <div className="lg:col-span-4 flex justify-center order-1 lg:order-none">
             <Image
               src="/family-study-pic.webp"
-         width={400}
+              width={400}
               height={400}
               alt="Why Us"
               className="h-[200px] md:h-[400px] w-full object-cover shadow-lg"
@@ -39,7 +42,7 @@ export default function WhyUsSection() {
               connected, making bedtime the perfect moment to introduce new
               ideas. Our academic bedtime stories weave math, science, and art
               into imaginative tales that spark curiosity, build focus, and
-              strengthen memory — helping kids rest, dream, and learn all at
+              strengthen memory ; helping kids rest, dream, and learn all at
               once.
             </p>
 
@@ -76,8 +79,10 @@ export default function WhyUsSection() {
 
             {/* Button linking to App Store / Play Store */}
             <a
-              href="https://play.google.com/store"
               target="_blank"
+              href={
+                "https://apps.apple.com/us/app/harmonious-learning/id6744360499"
+              }
               rel="noopener noreferrer"
             >
               <button className="glow-button mt-6">Try It Out!</button>

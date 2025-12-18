@@ -5,11 +5,10 @@ import AudioPlayer from "./global/AudioPlayer";
 export default function IlustratedBook() {
   return (
     <div className="relative">
-      
       <div className="blur-bg absolute top-1/5  -translate-x-1/2 -translate-y-1/8 pointer-events-none"></div>
       <section
         id="book-store"
-        className="flex-1 flex items-center justify-center px-3 md:px-6 py-5 md:py-20"
+        className="flex-1 flex items-center justify-center px-3 md:px-6 py-5 "
       >
         <div className="max-w-7xl relative p-0 md:p-10 w-full overflow-hidden  shadow-2xl mx-auto md:text-center space-y-8">
           {/* Main Heading */}
@@ -50,9 +49,18 @@ export default function IlustratedBook() {
             </div>
           </div>
           {/* Infinite Auto Loop Slider */}
-          <AudioPlayer/>
-          <div className="w-full mt-10 z-0  h-96 top-0  overflow-hidden">
-            <div className="slider-track flex">
+          <div className="w-full mt-40 z-0   top-0 mb-20 overflow-hidden">
+            <h1 className="text-2xl text-[#FFFFFF] md:text-5xl font-bold mb-6">
+              A Sneak Peek Into the Journey Ahead
+            </h1>
+
+            {/* Description */}
+            <p className="text-gray-300 text-lg  md:text-xl max-w-3xl mx-auto leading-relaxed mb-16">
+              Enjoy a sample story from our Harmonious Learning app, where
+              calming narration meets meaningful lessons. Each story is designed
+              to nurture curiosity, creativity, and peaceful learning moments.
+            </p>
+            <div className="slider-track  flex">
               {[
                 "/book1.jpg",
                 "/book2.jpg",
@@ -76,6 +84,7 @@ export default function IlustratedBook() {
               ))}
             </div>
           </div>
+          <AudioPlayer />
 
           <Image
             src={"/vector2.png"}

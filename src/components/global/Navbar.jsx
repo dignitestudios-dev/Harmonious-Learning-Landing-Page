@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Navbar() {
@@ -16,19 +17,34 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#why-us" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#why-us"
+              className="text-gray-300 hover:text-white transition"
+            >
               Why Us
             </a>
-            <a href="#feature" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#feature"
+              className="text-gray-300 hover:text-white transition"
+            >
               Features
             </a>
-            <a href="#about-us" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#about-us"
+              className="text-gray-300 hover:text-white transition"
+            >
               About Us
             </a>
-            <a href="#contact-us" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#contact-us"
+              className="text-gray-300 hover:text-white transition"
+            >
               Contact Us
             </a>
-            <a href="#book-store" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#book-store"
+              className="text-gray-300 hover:text-white transition"
+            >
               Book Store
             </a>
           </div>
@@ -42,7 +58,15 @@ export default function Navbar() {
           </button>
 
           {/* Join Us Button (Desktop) */}
-          <button className="!hidden md:!flex glow-button">Join Us</button>
+          <Link
+            target="_blank"
+            href={
+              "https://apps.apple.com/us/app/harmonious-learning/id6744360499"
+            }
+            className="!hidden md:!flex glow-button"
+          >
+            Join Us
+          </Link>
         </div>
 
         {/* Mobile Dropdown Menu */}

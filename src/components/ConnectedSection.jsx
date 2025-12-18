@@ -32,7 +32,7 @@ export default function ConnectedSection() {
 
           <p className="text-sm mb-10 leading-relaxed">
             Send us a message below and our friendly team will get back to you
-            soon — we’re always happy to chat about learning, storytelling, and
+            soon ; we’re always happy to chat about learning, storytelling, and
             bedtime magic.
           </p>
 

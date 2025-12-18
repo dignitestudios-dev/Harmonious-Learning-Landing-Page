@@ -9,7 +9,7 @@ export default function SpecialSection() {
       max-w-7xl 
       relative 
       mx-auto 
-      md:bg-[url('/background.png')] 
+      xl:bg-[url('/background.png')] 
       bg-contain 
       bg-center 
       bg-no-repeat 
@@ -17,10 +17,11 @@ export default function SpecialSection() {
       md:py-20
       lg:h-[1550px] 
       h-auto
+      
     "
       >
         {/* Heading */}
-        <div className="py-2 md:mt-30 lg:w-[655px] w-full px-4 sm:px-4">
+        <div className="py-2 md:mt-30 lg:w-[655px] mb-8 w-full px-4 sm:px-4">
           <h2
             className="
           font-bold 
@@ -49,7 +50,7 @@ export default function SpecialSection() {
         <div className="relative flex justify-center">
           <Image
             src="/special-img.png"
-            className="absolute top-2 left-40 hidden lg:block"
+            className="absolute  lg:h-[750px] top-2 left-40 hidden xl:block"
             width={750}
             height={0}
             alt=""
@@ -64,9 +65,9 @@ export default function SpecialSection() {
       "
         >
           {/* Left Column */}
-          <div className="w-full px-4 sm:px-2 lg:px-20 flex flex-col gap-20">
+          <div className="w-full  px-4 sm:px-2  flex flex-col lg:gap-20">
             {/* Card 002 */}
-            <div className="lg:w-[386px] w-full">
+            <div className="lg:w-[386px] mt-10 md:mt-0 w-full">
               <div
                 className="
               inline-flex items-center justify-center 
@@ -100,7 +101,7 @@ export default function SpecialSection() {
             </div>
 
             {/* Card 003 */}
-            <div className="lg:w-[386px] w-full lg:mt-72 mt-10">
+            <div className="lg:w-[386px] w-full -mt-10 lg:mt-72 ">
               <div
                 className="
               inline-flex items-center justify-center 
