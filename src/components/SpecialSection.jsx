@@ -101,7 +101,7 @@ export default function SpecialSection() {
             </div>
 
             {/* Card 003 */}
-            <div className="lg:w-[386px] w-full -mt-10 lg:mt-72 ">
+            <div className="lg:w-[386px] w-full mt-5 lg:mt-72 ">
               <div
                 className="
               inline-flex items-center justify-center 
