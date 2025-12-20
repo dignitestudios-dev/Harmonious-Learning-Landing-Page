@@ -48,19 +48,22 @@ export default function IlustratedBook() {
               </a>
             </div>
           </div>
+
           {/* Infinite Auto Loop Slider */}
+
           <div className="w-full mt-40 z-0   top-0 mb-20 overflow-hidden">
             <h1 className="text-2xl text-[#FFFFFF] md:text-5xl font-bold mb-6">
               A Sneak Peek Into the Journey Ahead
             </h1>
 
             {/* Description */}
-            <p className="text-gray-300 text-lg  md:text-xl max-w-3xl mx-auto leading-relaxed mb-16">
+            <p className="text-gray-300 text-lg  md:text-xl max-w-3xl mx-auto leading-relaxed mb-5">
               Enjoy a sample story from our Harmonious Learning app, where
               calming narration meets meaningful lessons. Each story is designed
               to nurture curiosity, creativity, and peaceful learning moments.
             </p>
-            <div className="slider-track  flex">
+            <AudioPlayer />
+            <div className="slider-track  mt-4 flex">
               {[
                 "/book1.jpg",
                 "/book2.jpg",
@@ -84,7 +87,6 @@ export default function IlustratedBook() {
               ))}
             </div>
           </div>
-          <AudioPlayer />
 
           <Image
             src={"/vector2.png"}
