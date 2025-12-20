@@ -61,7 +61,7 @@ export default function SpecialSection() {
         <div
           className="
         flex lg:flex-row flex-col 
-        justify-between gap-5 md:gap-10 lg:gap-3
+        justify-between xl:px-5 gap-5 md:gap-10 lg:gap-3
       "
         >
           {/* Left Column */}
