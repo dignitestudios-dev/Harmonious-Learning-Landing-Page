@@ -60,9 +60,7 @@ export default function Navbar() {
           {/* Join Us Button (Desktop) */}
           <Link
             target="_blank"
-            href={
-              "https://apps.apple.com/us/app/harmonious-learning/id6744360499"
-            }
+            href="https://harmoniouslearning.org/"
             className="!hidden md:!flex glow-button"
           >
             Join Us
