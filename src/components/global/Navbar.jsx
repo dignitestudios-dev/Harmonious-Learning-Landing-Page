@@ -70,23 +70,44 @@ export default function Navbar() {
         {/* Mobile Dropdown Menu */}
         {open && (
           <div className="md:hidden mt-4 flex flex-col gap-4 bg-black/50 backdrop-blur-md p-4 rounded-lg">
-            <a href="#" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#why-us"
+              className="text-gray-300 hover:text-white transition"
+            >
               Why Us
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#feature"
+              className="text-gray-300 hover:text-white transition"
+            >
               Features
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#about-us"
+              className="text-gray-300 hover:text-white transition"
+            >
               About Us
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#contact-us"
+              className="text-gray-300 hover:text-white transition"
+            >
               Contact Us
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition">
+            <a
+              href="#book-store"
+              className="text-gray-300 hover:text-white transition"
+            >
               Book Store
             </a>
 
-            <button className="glow-button w-full">Join Us</button>
+            <Link
+              target="_blank"
+              href="https://harmoniouslearning.org/"
+              className="glow-button w-full"
+            >
+              Join Us
+            </Link>
           </div>
         )}
       </div>
