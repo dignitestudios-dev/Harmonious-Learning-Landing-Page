@@ -118,7 +118,7 @@ export default function AudioPlayer() {
   });
 
   return (
-    <div className="flex items-center mt-20 md:mt-0 justify-center  relative z-30">
+    <div className="flex items-center mt-5 md:mt-0 justify-center  relative z-30">
       <div className="w-full md:max-w-7xl  rounded-lg  shadow-4xl ">
         <div className="flex  shadow-2xl rounded-[10px] py-5 ">
           {/* Album Art */}

@@ -8,7 +8,7 @@ export default function IlustratedBook() {
       <div className="blur-bg absolute top-1/5  -translate-x-1/2 -translate-y-1/8 pointer-events-none"></div>
       <section
         id="book-store"
-        className="flex-1 flex items-center justify-center px-3 md:px-6 py-5 "
+        className="flex-1 flex items-center justify-center px-3 md:px-6  "
       >
         <div className="max-w-7xl relative p-0 md:p-10 w-full overflow-hidden  shadow-2xl mx-auto md:text-center space-y-8">
           {/* Main Heading */}
@@ -51,7 +51,7 @@ export default function IlustratedBook() {
 
           {/* Infinite Auto Loop Slider */}
 
-          <div className="w-full mt-40 z-0   top-0 mb-20 overflow-hidden">
+          <div className="w-full mt-10 md:mt-40 z-0   top-0 mb-20 overflow-hidden">
             <h1 className="text-2xl text-[#FFFFFF] md:text-5xl font-bold mb-6">
               A Sneak Peek Into the Journey Ahead
             </h1>

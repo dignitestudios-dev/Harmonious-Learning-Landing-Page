@@ -2,10 +2,12 @@ import React from "react";
 
 export default function AboutUsSection() {
   return (
-    <section id="about-us" className="py-0 px-4 mb-20 relative sm:px-6 lg:px-8">
-<div className="blur-bg absolute top-1/2  -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+    <section id="about-us" className="py-0 px-4 mb-10 -mt-10 md:mt-0 relative sm:px-6 lg:px-8">
+      <div className="blur-bg absolute top-1/2  -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-[70px]  font-bold text-white mb-4">About Us</h2>
+        <h2 className="text-4xl md:text-[70px]  font-bold text-white mb-4">
+          About Us
+        </h2>
         <h3 className="text-lg md:text-[30px] font-medium md:font-bold text-white mb-4">
           At Harmonious Learning, we believe that stories are powerful teachers.
         </h3>
@@ -91,7 +93,7 @@ export default function AboutUsSection() {
           </div>
         </div>
       </div>
-       <div className="blur-bg absolute top-1/2 right-0   translate-x-0 translate-y-2 pointer-events-none"></div>
+      <div className="blur-bg absolute top-1/2 right-0   translate-x-0 translate-y-2 pointer-events-none"></div>
     </section>
   );
 }

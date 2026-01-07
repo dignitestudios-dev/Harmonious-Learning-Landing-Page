@@ -5,7 +5,7 @@ export default function WhyUsSection() {
   return (
     <section
       id="why-us"
-      className="py-10 md:py-20 px-4 relative sm:px-6 lg:px-8"
+      className=" pb-10 md:py-20 px-4 relative sm:px-6 lg:px-8"
     >
       <div className="max-w-7xl mx-auto">
         {/* MOBILE FIRST ; IMAGE FIRST */}

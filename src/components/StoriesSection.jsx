@@ -3,7 +3,7 @@ import React from "react";
 
 export default function StoriesSection() {
   return (
-    <section className="py-10 md:py-20 px-4 sm:px-6 relative lg:px-8">
+    <section className="pb-10 md:py-20 px-4 sm:px-6 relative lg:px-8">
       <div className="blur-bg absolute top-1/2  -translate-x-1/3 translate-y-20 pointer-events-none"></div>      
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
