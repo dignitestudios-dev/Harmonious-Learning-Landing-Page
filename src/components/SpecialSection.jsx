@@ -62,7 +62,7 @@ export default function SpecialSection() {
           className="
         flex lg:flex-row flex-col 
         justify-between xl:px-5
-         lg:bg-none bg-[url(/hero-right.png)] bg-cover bg-no-repeat bg-center
+         lg:bg-none bg-[url(/mockup-new.png)] bg-no-repeat bg-center
       "
         >
           {/* Left Column */}
