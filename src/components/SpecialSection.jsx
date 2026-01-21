@@ -66,7 +66,7 @@ export default function SpecialSection() {
       "
         >
           {/* Left Column */}
-          <div className="w-full pb-5 md:pb-10 lg:pb-3 px-4 sm:px-2  flex flex-col lg:gap-20 bg-linear-to-b from-black/50 to-black/95">
+          <div className="w-full pb-5 md:pb-10 lg:pb-3 px-4 sm:px-2  flex flex-col lg:gap-20 bg-linear-to-b from-black/30 to-black/80">
             <div className="block lg:hidden mt-3 md:mt-10 lg:w-[386px] w-full lg:ml-auto">
               <div
                 className="
@@ -168,7 +168,7 @@ export default function SpecialSection() {
           </div>
 
           {/* Right Column */}
-          <div className="w-full px-4 sm:px-2 lg:px-0 bg-black/95">
+          <div className="w-full px-4 sm:px-2 lg:px-0 bg-black/80">
             {/* Card 001 */}
             <div className="hidden lg:block lg:w-[386px] w-full lg:ml-auto">
               <div
