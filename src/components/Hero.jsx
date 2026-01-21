@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Grid responsive */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* IMAGE FIRST ON MOBILE */}
-          <div className="flex justify-end order-1 lg:order-2">
+          <div className="lg:flex hidden justify-end order-1 lg:order-2">
             <div className="relative">
               <Image
                 src="/hero-right.png"
@@ -19,6 +19,16 @@ export default function Hero() {
                 alt="Hero Image"
               />
             </div>
+          </div>
+
+          <div className="lg:hidden flex w-full justify-center items-center my-10">
+            <Image
+              src="/special-img.png"
+              width={600}
+              height={500}
+              className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[5px] max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
+              alt="Hero Image"
+            />
           </div>
 
           {/* TEXT CONTENT */}

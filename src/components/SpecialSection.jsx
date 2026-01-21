@@ -3,7 +3,7 @@ import { Heart } from "lucide-react";
 import Image from "next/image";
 export default function SpecialSection() {
   return (
-    <section className="py-0 px-2 relative sm:px-6 lg:px-8">
+    <section className="py-0 relative sm:px-6 lg:px-8">
       <div
         className="
       max-w-7xl 
@@ -61,11 +61,12 @@ export default function SpecialSection() {
         <div
           className="
         flex lg:flex-row flex-col 
-        justify-between xl:px-5 gap-5 md:gap-10 lg:gap-3
+        justify-between xl:px-5
+         bg-[url(/hero-right.png)] bg-cover bg-no-repeat bg-center
       "
         >
           {/* Left Column */}
-          <div className="w-full  px-4 sm:px-2  flex flex-col lg:gap-20">
+          <div className="w-full pb-5 md:pb-10 lg:pb-3 px-4 sm:px-2  flex flex-col lg:gap-20 bg-linear-to-b from-black/50 to-black/95">
             <div className="block lg:hidden mt-3 md:mt-10 lg:w-[386px] w-full lg:ml-auto">
               <div
                 className="
@@ -167,7 +168,7 @@ export default function SpecialSection() {
           </div>
 
           {/* Right Column */}
-          <div className="w-full px-4 sm:px-2 lg:px-0">
+          <div className="w-full px-4 sm:px-2 lg:px-0 bg-black/95">
             {/* Card 001 */}
             <div className="hidden lg:block lg:w-[386px] w-full lg:ml-auto">
               <div
