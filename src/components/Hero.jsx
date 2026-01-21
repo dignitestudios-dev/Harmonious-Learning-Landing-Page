@@ -23,7 +23,7 @@ export default function Hero() {
 
           <div className="lg:hidden flex w-full justify-center items-center my-10">
             <Image
-              src="/special-img.png"
+              src="/special-img-2.png"
               width={600}
               height={500}
               className="w-full relative lg:-right-[32px] lg:-top-20 top-10 -right-[5px] max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
