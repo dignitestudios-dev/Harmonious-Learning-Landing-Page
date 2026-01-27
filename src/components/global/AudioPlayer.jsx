@@ -139,7 +139,8 @@ export default function AudioPlayer() {
                   86AD
                 </h3>
                 <h2 className="text-xl md:text-xl font-bold text-white">
-                  The Journey of the Little!</h2>
+                  The Journey of the little raindrop
+                </h2>
               </div>
               {/* <button
                   onClick={() => setIsLiked(!isLiked)}
@@ -178,7 +179,6 @@ export default function AudioPlayer() {
             {/* Controls */}
             <div className="flex items-center justify-between">
               {/* Left Controls */}
-              
 
               {/* Center Controls */}
               <div className="flex  items-center gap-0 md:gap-2">
